@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "integral";
+  src: url("./assets/fonts/integtral-RG.otf");
+}
+@font-face {
+  font-family: "satoshi";
+  src: url("./assets/fonts/Satoshi-Regular.otf");
+}
+
+* {
+  @apply m-0 p-0 box-border;
+}
+body {
+  @apply font-satoshi;
+}
+
+.container {
+  @apply max-w-[1360px] my-0 mx-auto p-[20px] flex justify-between items-center;
+}
+
+.centered {
+  @apply flex justify-center items-center;
+}
+
+.navbar {
+  @apply flex justify-between items-center;
+}
+
+.footer {
+  @apply text-center py-[20px] px-0;
+}
