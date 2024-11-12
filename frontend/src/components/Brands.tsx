@@ -1,8 +1,8 @@
-import versace from "../assets/images/versace.png";
-import zara_logo from "../assets/images/zara_logo.png";
-import gucci_logo from "../assets/images/gucci_logo.png";
-import prada_logo from "../assets/images/prada_logo.png";
-import ck_logo from "../assets/images/ck_logo.png";
+import versace from "../assets/images/brands/versace.png";
+import zara_logo from "../assets/images/brands/zara_logo.png";
+import gucci_logo from "../assets/images/brands/gucci_logo.png";
+import prada_logo from "../assets/images/brands/prada_logo.png";
+import ck_logo from "../assets/images/brands/ck_logo.png";
 
 const Brands = () => {
   return (
